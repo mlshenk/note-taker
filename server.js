@@ -35,7 +35,6 @@ app.delete('/api/notes/:id', async (req,res) => {
     await DB.deleteJSON(currentNotes, requestedID)
     res.json("This worked!");
 });
-
   app.listen(PORT, function() {
     console.log("App listening on PORT http://localhost:" + PORT);
   });
