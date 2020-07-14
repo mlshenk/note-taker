@@ -4,7 +4,8 @@
   "description": "",
   "main": "server.js",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "path": "^0.12.7"
   },
   "devDependencies": {},
   "scripts": {
@@ -20,5 +21,6 @@
   "bugs": {
     "url": "https://github.com/mlshenk/note-taker/issues"
   },
-  "homepage": "https://github.com/mlshenk/note-taker#readme"
+  "homepage": "https://github.com/mlshenk/note-taker#readme",
+  "keywords": []
 }
