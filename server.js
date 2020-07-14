@@ -12,13 +12,13 @@ app.use(express.json());
 
 app.get("/notes", function(req, res) {
     // res.send("Welcome to the Star Wars Page!")
-    res.sendfile(path.join(__dirname, "Develop/public/notes.html"));
+    res.sendfile(path.join(__dirname, "./public/notes.html"));
   });
 
   app.get("*", function(req, res) {
     // res.send("Welcome to the home page!")
     // res.sendFile("./note-taker/Develop/public/index.html");
-    res.sendfile(path.join(__dirname, "Develop/public/index.html"));
+    res.sendfile(path.join(__dirname, "./public/index.html"));
   });
 
 
